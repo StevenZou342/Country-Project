@@ -112,5 +112,4 @@ p:hover{
 	background-color:blue;
 	color:white;
 	transition-duration: .3s;
-	transform: scale(1.01);
 }
