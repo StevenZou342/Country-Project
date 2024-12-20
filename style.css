@@ -1,0 +1,116 @@
+* {
+  font-family:Arial;
+}
+a {
+  text-decoration: none;
+}
+
+.container{
+	
+	display:flex;
+	;
+}
+
+
+nav a{
+	flex:1;
+}
+#banner{
+  background-image: url(https://www.sundaypost.com/wp-content/uploads/sites/13/2015/12/budapest1.jpg);
+  border-style: solid;
+  font-size: 30px;
+  color:white;
+  padding: 500px;
+  text-align:center;
+  background-size: cover;
+  justify-content:center;
+  align-items: center;
+  text-shadow:2px 2px black;
+  font-weight: bold;
+  font-style: italic;
+  background-size:cover;
+  margin:0px;
+  gap:0;
+}
+
+#box{
+	padding:50px;
+	 color:white;
+	 text-shadow:1px 1px black;
+	background-color:;
+	font-weight: bold;
+	font-style: italic;
+	border-style: solid;
+	background-image:url(https://th.bing.com/th/id/R.24a17627ccc76d6fc4ef87d165a2c4c0?rik=Emi2KlZS6y5Nag&pid=ImgRaw&r=0);
+	font-size:25px;
+	margin-bottom:-10px;
+	gap:0;
+}
+a:hover{
+	color:white;
+}
+
+#hi{
+	flex-direction:column;
+}
+#h2{
+	justify-content:center;
+	align-items: center;
+}
+p{	
+	font-size: 20px;
+	display:flex;
+	color:white;
+	text-align: center;
+	justify-content:center;
+	align-items: center;
+	border-radius: 25px;
+}
+h1{
+  text-align: center;
+  color:white;
+}
+img {
+  width: 600px;
+  height: 300px;
+  padding:20px;
+}
+img:hover{
+	transform: scale(1.05);
+	border-radius: 25px;
+	filter: drop-shadow(8px 8px 10px blue);
+	 transition-duration: .3s;
+	
+}
+a{
+	font-size: 20px;
+	display:flex;
+	color:white;
+	text-align: center;
+	justify-content:center;
+	align-items: center;
+}
+a:hover{
+	color:red;
+	text-shadow:1px 1px white;
+	background-color:black;
+	border: 2px solid red;
+	border-radius: 25px;
+	filter: drop-shadow(8px 8px 10px blue);
+}
+
+h1:hover{
+filter: drop-shadow(8px 8px 10px blue);
+transform: scale(1.01);
+}
+#2:hover{
+	border: 2px solid red;
+}
+p:hover{
+	border: 2px solid white;
+	border-radius: 25px;
+	background-color:blue;
+	color:white;
+	transition-duration: .3s;
+	padding:20px;
+}
